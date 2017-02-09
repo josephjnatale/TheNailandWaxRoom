@@ -1,0 +1,39 @@
+@import "../Parisienne/Parisienne.css";
+@import "../Arima_Madurai/Arima Madurai.css";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#nav {
+    background-color: rgba(0, 0, 04, .5);
+    z-index: 99;
+    width: 100%;
+    position: fixed;
+}
+
+#nav ul {
+    list-style-type: none;
+    float: right;
+
+    font-size: 1.8em;
+}
+
+#nav ul li{
+    font-family: Arima;
+    display: inline;
+    width: 15%;
+    color: white;
+    padding: .5em 1em;
+}
+
+#nav ul a{
+    text-decoration: none;
+
+}
+
+#nav ul a:hover{
+    background-color: aqua;
+}

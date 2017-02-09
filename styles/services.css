@@ -1,0 +1,66 @@
+@import "main.css";
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.bg {
+    height: 80%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.price {
+    height: 675px;
+    text-align: center;
+}
+
+.nails{
+    background-image: url("../images/nails.jpg");
+}
+
+.price table{
+    margin: 2em auto;
+    width: 50%;
+    background: white;
+    font-family: Arima;
+    font-size: 150%;
+}
+
+.price table tr:first-child, thead th{
+    background: white;
+}
+
+.price table tr:nth-child(odd){
+    background: rgba(125,55,253, .5);
+}
+
+.price h1{
+    font-family: Parisienne;
+    font-size: 450%;
+    margin-top: 1em;
+}
+
+.header {
+    background: white;
+    border-bottom: dashed black 1px;
+    font-size: 160%;
+    vertical-align: top;
+}
+
+.waxprice{
+    height: 1075px;
+}
+
+.waxing {
+
+    background-image: url("../images/waxing.jpg");
+
+}
+
+.facial{
+    background-image: url("../images/facial.jpg");
+    height: 500px;
+}

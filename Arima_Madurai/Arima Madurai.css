@@ -1,0 +1,13 @@
+@font-face{
+    font-family: Arima;
+    font-style: normal; /* do not need to specify normal */
+    font-weight: normal; /* do not need to specify normal */
+    src: url('ArimaMadurai-Regular.ttf');
+}
+
+@font-face{
+    font-family: Arima;
+    font-style: normal ; /* do not need to specify normal */
+    font-weight: bold; /* do not need to specify normal */
+    src: url('ArimaMadurai-Bold.ttf');
+}
